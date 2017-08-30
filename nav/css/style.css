@@ -1,0 +1,42 @@
+body{
+    font-family: arial;
+    font-size: 20px;
+}
+.nav ul{
+    width: 95%;
+    background-color: #F3BE41;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+.nav ul li{
+  list-style-type: none;
+  padding: 5px 10px;
+  display: inline;
+}
+.nav ul li:hover
+{
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    color: white;
+}
+.nav-ver ul{
+    width: 100%;
+    background-color:#F3BE41;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.nav-ver ul{
+    width: 20%;
+    padding: 5px;
+}
+.nav-ver ul li{
+  list-style-type: none;
+}
+.nav-ver ul li:hover
+{
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    color: white;
+}

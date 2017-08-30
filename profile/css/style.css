@@ -1,0 +1,36 @@
+.main{
+    background-color: gainsboro;
+    height: 500px;
+    width: 600px;
+    margin: 100px auto 0px auto;
+    border-radius: 10px;
+}
+.wall{
+    background-image: url("../1.jpg");
+    height: 200px;
+    border-radius: 10px;
+}
+.propic{
+    background-image: url("../me.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 130px;
+    left: 210px;
+    border: 2px  solid black;
+    box-shadow: 2px 2px solid gray;
+}
+.content{
+    font-family: Arial;
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+.content > ul li{
+    list-style: none;
+    float: left;
+    padding: 20px 30px 20px 20px;
+    font-size: 20px;
+}
