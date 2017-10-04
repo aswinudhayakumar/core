@@ -1,0 +1,24 @@
+.one{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    width: 500px;
+    background: #ecf0f1;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+body{
+    background: #f1c40f;
+    font-family: arial;
+}
+.sub{
+    border: none;
+    background: #2ecc71;
+    padding: 6px 6px 6px 6px;
+    border-radius:5PX;
+    color: white;
+}
+input[text],input[password]{
+    background: gray;
+}

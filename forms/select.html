@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            #menu:checked~div{
+                display: inline-block;
+            }
+            li{
+                width: 1000px;
+                height: 25px;
+                padding: 2px 2px 2px 2px;
+            }
+          div{
+             display: none;
+          }
+          li{
+              list-style-type: none;
+          }
+          input[type=checkbox],
+          input[type=radio]{
+              display: none;
+          }
+          input[type=radio]:checked~label{
+              background: silver;
+          }
+        </style>
+    </head>
+    <body>
+        <input type="checkbox" id="menu"><label for="menu">Select</label><br>
+        <div class="c">
+            <ul>
+            <li> <input type="radio" name="car" id="audi" value="audi"> <label for="audi">Audi</label></li>
+            <li><input type="radio" name="car" id="ben" value="benz"> <label for="ben">Benz</label></li>
+            </ul>
+        </div><br>
+        <input type="submit" value="send">
+    </body>
+</html>
